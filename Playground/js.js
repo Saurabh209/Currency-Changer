@@ -1,5 +1,5 @@
-let Currency = "usd"
-let Amount = 1
+let Currency = 'usd'
+let Amount = 12
 const data = fetch(`https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/${Currency}.json`)
 .then((response)=>response.json())
 .then((responseData)=>{

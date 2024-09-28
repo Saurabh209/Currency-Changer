@@ -1,0 +1,29 @@
+
+
+.Container{
+    height: 100px;
+    min-width: 300px;
+    width: 50%;
+    border: 3px solid rgb(201, 133, 133);
+    border-radius: 5px;
+}
+.upperContainer{
+    display: flex;
+    justify-content: space-between;
+    
+    height: 50%;
+    width: 100%;
+    border: 1px solid black;
+}
+.upperLeft{
+    margin-left: 15px;
+}
+.upperRight{
+    margin-right: 15px;
+    width: 30%;
+}
+.lowerContainer{
+    height: 50%;
+    width: 100%;
+    border: 1px solid black;
+}
