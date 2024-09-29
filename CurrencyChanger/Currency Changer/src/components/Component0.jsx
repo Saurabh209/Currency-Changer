@@ -5,6 +5,7 @@ function Container(props){
 
     return(
         <>
+        
         <div className="Container">
         <div className='upperContainer'>
         <div className="upperLeft">
@@ -27,6 +28,7 @@ function Container(props){
         </div>
             
         </div>
+        
         </>
     )
     

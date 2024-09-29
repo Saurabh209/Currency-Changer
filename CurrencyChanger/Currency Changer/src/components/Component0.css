@@ -2,10 +2,11 @@
     font-family: 'Khand variant0", Tofu', Arial, sans-serif;
 }
 
+
 .Container{
     height: 100px;
     min-width: 300px;
-    width: 50%;
+    width: 85%;
     border: 3px solid rgb(201, 133, 133);
     border-radius: 5px;
 }
