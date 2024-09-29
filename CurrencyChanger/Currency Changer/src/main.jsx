@@ -7,8 +7,8 @@ import './index.css'
 createRoot(document.getElementById('root')).render(
   <>  
 
-  <Container  Name = "Saurabh" conversion = "From"/>
-  <Container  Name = "Kumar" conversion = "To" />
+  <Container   conversion = "From"/>
+  <Container  conversion = "To" />
   <App />
   </>
 

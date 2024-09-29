@@ -12,7 +12,19 @@ function Container(props){
         </div>
         <div className ="upperRight"><p>currencyType</p></div>
         </div>
-        <div className='lowerContainer'></div>
+        <div className='lowerContainer'>
+            <div className='lowerLeft'>
+                <input className='field' type='number'></input>
+            </div>
+            <div className='lowerRight'>
+            <select className='selectCurrecny' name="currencyType">
+                <option value="usd">Usd</option>
+                <option value="inr">Inr</option>
+            </select>
+
+
+            </div>
+        </div>
             
         </div>
         </>
